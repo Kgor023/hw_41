@@ -1,0 +1,24 @@
+.posts{
+    width: 700px;
+    border: 1px solid black;
+    margin: 15px auto;
+    padding: 10px;
+    position: relative;
+}
+.posts__title{
+    text-decoration: underline;
+    font-size: 25px;
+}
+.posts__content{
+ font-size: 15px;
+ font-weight: 600;
+ width: 500px;
+ height: 50px;
+ word-wrap:break-word;
+color: rgb(84, 84, 84);
+}
+.posts__delete{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
